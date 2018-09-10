@@ -1,5 +1,6 @@
 import FluentSQLite
 import Vapor
+import mongoDriver
 
 /// A single entry of a Todo list.
 final class Todo: SQLiteModel {
